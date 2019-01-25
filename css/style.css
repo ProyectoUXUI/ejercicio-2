@@ -3,7 +3,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: #006AFF
+    color: #006AFF;
+    background-color: #333333;
 }
 
 .form-element {
@@ -15,20 +16,26 @@ form {
     justify-content: center;
     flex-direction: column;
     margin-top: 100px;
-    background: #333333;
+    background: #006AFF;
     padding: 15px;
+    border-radius: 10px;
   }
 
   button {
-      background: #006AFF;
+      background: #FFFFFF;
       padding: 8px;
       border: none;
       border-radius: 35px;
-      color: #FFFFFF;
+      color: #006AFF;
       font-size: 15px;
       font-weight: bold;
   }
 
-label {
+.form {
+    color: #FFFFFF;
+}
+
+p {
+    text-align: center;
     color: #FFFFFF;
 }
