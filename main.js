@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function(){
         }
 
         const mensajeTexto = document.querySelectorAll(".mensaje-texto")[0];
-        mensajeTexto.innerHTML = `${saludo} al curso de ${cursos.options[cursos.selectedIndex].text} ${nombre}`;
+        mensajeTexto.innerHTML = `¡${saludo} al curso de ${cursos.options[cursos.selectedIndex].text} ${nombre} ${apellidos}!`;
 
     });
 });
